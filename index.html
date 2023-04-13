@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Jenny">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Meeting Notes</title>
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Notes</h1>
+        <h2>Pomodoro Timer First Brainstorm</h2>
+        <h2>4/12/23</h2>
+        <nav>
+            <a href="#attendance">Attendance</a><br>
+            <a href="#agenda">Agenda</a><br>
+            <a href="#unfinished">Unfinished Business</a><br>
+            <a href="#new">New Business</a><br>
+            <a href="#misc">Misc Comments, Questions, and Concerns</a><br>
+            <a href="#media">Media</a>
+        </nav>
+    </header>
+    <main>
+        <section id="attendance">
+            <h3>Attendance</h3>
+            <ul>
+                <li>Person 2</li>
+                <li>Person 3</li>
+            </ul>
+        </section>
+        <section id="agenda">
+            <h3>Agenda</h3>
+            <ol>
+                <li>Recruit interns</li>
+                <li>Layoffs again</li>
+                <li>Come up with <em>features</em> for app</li>
+                <li>Decide on tech stack</li>
+                <li>Discuss IPO plans</li>
+            </ol>
+        </section>
+        <section id="unfinished">
+            <h3>Unfinished Business</h3>
+            <p>Review applications for interns</p>
+            <ol>
+                <li>Half of them lied about their graduation date</li>
+            </ol>
+            <p>Layoffs</p>
+            <ol>
+                <li>Internal valuation decreased by 90% (10 dollars)</li>
+                <li>This is our last day</li>
+            </ol>
+        </section>
+        <section id="new">
+            <h3>New Business</h3>
+            <p>Come up with features for pomodoro timer</p>
+            <ol>
+                <li>Pomodoro premium: the first 25 minutes are <i>free</i>; users will pay $0.25 per extra minute or $10.99 subscription per month for unlimited use</li>
+                <details>
+                    <summary>Challenges</summary>
+                    <ul>
+                        <li>Payment-processing system</li>
+                        <li>Current price model is not enough money to fund trip to Hawaii</li>
+                    </ul>
+                </details>
+                <li>NFT-integration: users are rewarded with custom Ethereum-based NFT every 100 minutes</li>
+                <li>User data collection and targeted ads: collect user data without them knowing and show them relevant ads during the break period</li>
+                <details>
+                    <summary>Which government should we sell the data to?</summary>
+                    <ul>
+                        <li>United States</li>
+                    </ul>
+                </details>
+                <li>PomodoroGPT: ChatGPT decides optimal length of Pomodoros based on tasks</li>
+            </ol>
+            <p>Decide on tech stack</p>
+            <ol>
+                <li>ChatGPT - frontend</li>
+                <li>MATLAB - backend</li>
+            </ol>
+        </section>
+        <section id="misc">
+            <h3><span>Misc</span> Comments, Questions, and Concerns</h3>
+            <ol>
+                <li>What should the NFTs look like?</li>
+                <li>Do we <strong>need</strong> to <strong>pay</strong> the interns?</li>
+            </ol>
+        </section>
+        <section id="media">
+            <h3>Diagrams</h3>
+            <img src="diagram.jpg" width="500px">
+            <h3>Recording</h3>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+              </video>
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+        </section>
+        <hr>
+        <div>
+            <form>
+                <fieldset>
+                    <h1>Order Boba</h1>
+                    <h2>Drink</h2>
+                    <label for="drink">Tea:</label><br>
+                    <input type="text" id="drink" name="drink"><br>
+
+                    <p>Milk</p>
+                    <input type="radio" id="whole" name="milk" value="Whole milk">
+                    <label for="whole">Whole milk</label><br>
+                    <input type="radio" id="oat" name="milk" value="Oat">
+                    <label for="oat">Oat</label><br>
+                    <input type="radio" id="almond" name="milk" value="Almond">
+                    <label for="almond">Almond</label><br>
+                    <input type="radio" id="none" name="milk" value="None">
+                    <label for="none">None</label><br>
+
+                    <label for="sguar">Sugar level:</label>
+    <input list="sugar-level" id="sugar" name="sugar">
+
+                    <datalist id="sugar-level">
+                        <option value="0%">
+                        <option value="25%">
+                        <option value="50%">
+                        <option value="75%">
+                        <option value="100%">
+                        <option value="200%"> 
+                    </datalist>
+
+                    <p>Toppings</p>
+                    <input type="checkbox" id="honey" name="topping" value="Honey boba">
+                    <label for="honey">Honey boba</label><br>
+                    <input type="checkbox" id="rainbow" name="topping" value="rainbow">
+                    <label for="rainbow">Rainbow jelly</label><br>
+                    <input type="checkbox" id="grass" name="topping" value="grass">
+                    <label for="grass">Grass jelly</label>
+
+                    <p>Extra Specifications</p>
+                    <textarea></textarea><br>
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <p>Delivery date</p>
+                    <input type="date" id="date" name="date" value="Delivery date">
+                    <p>Address</p>
+                    <textarea></textarea><br>
+                    <h2>Payment</h2>
+                    <label for="provider">Credit card provider:</label>
+                    <select name="provider" id="provider">
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Mastercard</option>
+                        <option value="amex">American Express</option>
+                        <option value="Discover">Discover</option>
+                    </select><br>
+                    <label for="card">Credit card number:</label>
+                    <input type="text" id="card" name="card"><br>
+                    <label for="card">Expiration date:</label>
+                    <input type="text" id="card" name="card"><br>
+                    <label for="card">CVV:</label>
+                    <input type="text" id="card" name="card"><br>
+                    <button>Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Website by <b>Jenny</b></p>
+    </footer>
+  </body>
+</html>
