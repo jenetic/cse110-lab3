@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="author" content="Jenny">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>Meeting Notes</title>
   </head>
   <body>
@@ -53,22 +53,28 @@
             <h3>New Business</h3>
             <p>Come up with features for pomodoro timer</p>
             <ol>
-                <li>Pomodoro premium: the first 25 minutes are <i>free</i>; users will pay $0.25 per extra minute or $10.99 subscription per month for unlimited use</li>
-                <details>
-                    <summary>Challenges</summary>
-                    <ul>
-                        <li>Payment-processing system</li>
-                        <li>Current price model is not enough money to fund trip to Hawaii</li>
-                    </ul>
-                </details>
+                <li>
+                    <p>Pomodoro premium: the first 25 minutes are <i>free</i>; users will pay $0.25 per extra minute or $10.99 subscription per month for unlimited use</p>
+                    <details>
+                        <summary>Challenges</summary>
+                        <ul>
+                            <li>Payment-processing system</li>
+                            <li>Current price model is not enough money to fund trip to Hawaii</li>
+                        </ul>
+                    </details>
+                </li>
+                
                 <li>NFT-integration: users are rewarded with custom Ethereum-based NFT every 100 minutes</li>
-                <li>User data collection and targeted ads: collect user data without them knowing and show them relevant ads during the break period</li>
-                <details>
-                    <summary>Which government should we sell the data to?</summary>
-                    <ul>
-                        <li>United States</li>
-                    </ul>
-                </details>
+                <li>
+                    <p>User data collection and targeted ads: collect user data without them knowing and show them relevant ads during the break period</p>
+                    <details>
+                        <summary>Which government should we sell the data to?</summary>
+                        <ul>
+                            <li>United States</li>
+                        </ul>
+                    </details>
+                </li>
+                
                 <li>PomodoroGPT: ChatGPT decides optimal length of Pomodoros based on tasks</li>
             </ol>
             <p>Decide on tech stack</p>
@@ -86,7 +92,7 @@
         </section>
         <section id="media">
             <h3>Diagrams</h3>
-            <img src="diagram.jpg" width="500px">
+            <img src="diagram.jpg" width=500 alt="glycolysis diagram">
             <h3>Recording</h3>
             <video width="320" height="240" controls>
                 <source src="video.mp4" type="video/mp4">
@@ -116,7 +122,7 @@
                     <input type="radio" id="none" name="milk" value="None">
                     <label for="none">None</label><br>
 
-                    <label for="sguar">Sugar level:</label>
+                    <label for="sugar">Sugar level:</label>
     <input list="sugar-level" id="sugar" name="sugar">
 
                     <datalist id="sugar-level">
@@ -141,7 +147,7 @@
                     <label for="fname">Name</label><br>
                     <input type="text" id="fname" name="fname"><br>
                     <p>Delivery date</p>
-                    <input type="date" id="date" name="date" value="Delivery date">
+                    <input type="date" id="date" name="date">
                     <p>Address</p>
                     <textarea></textarea><br>
                     <h2>Payment</h2>
@@ -152,12 +158,12 @@
                         <option value="amex">American Express</option>
                         <option value="Discover">Discover</option>
                     </select><br>
-                    <label for="card">Credit card number:</label>
-                    <input type="text" id="card" name="card"><br>
-                    <label for="card">Expiration date:</label>
-                    <input type="text" id="card" name="card"><br>
-                    <label for="card">CVV:</label>
-                    <input type="text" id="card" name="card"><br>
+                    <label for="card1">Credit card number:</label>
+                    <input type="text" id="card1" name="card"><br>
+                    <label for="card2">Expiration date:</label>
+                    <input type="text" id="card2" name="card"><br>
+                    <label for="card3">CVV:</label>
+                    <input type="text" id="card3" name="card"><br>
                     <button>Submit</button>
                 </fieldset>
             </form>
