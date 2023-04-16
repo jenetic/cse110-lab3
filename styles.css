@@ -48,6 +48,10 @@ nav a {
     margin: 0.5rem 1rem;
 }
 
+p {
+    font-size: 1em;
+}
+
 fieldset {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -72,14 +76,13 @@ textarea, input {
 }
 
 img {
-    width: 500px;
-    height: 400px;
+    width: 15cm;
+    height: 4.3in;
 }
 
 video {
-    min-width: 300px;
-    max-width: 320px;
-    height: 240px;
+    min-width: 50vw;
+    max-width: 70vw;
 }
 
 .hidden {
