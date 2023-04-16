@@ -103,3 +103,9 @@ video {
 #features p {
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    #features {
+        display: block;
+    }
+}
