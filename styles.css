@@ -71,6 +71,17 @@ textarea, input {
     color: var(--white-1);
 }
 
+img {
+    width: 500px;
+    height: 400px;
+}
+
+video {
+    min-width: 300px;
+    max-width: 320px;
+    height: 240px;
+}
+
 .hidden {
     display: none;
 }
