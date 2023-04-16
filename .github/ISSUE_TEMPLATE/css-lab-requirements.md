@@ -2,7 +2,7 @@
 name: CSS Lab Requirements
 about: Track issues related to lab requirements
 title: ''
-labels: general-css
+labels: css
 assignees: jenetic
 
 ---
