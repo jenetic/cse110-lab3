@@ -113,64 +113,100 @@
         <div id="form">
             <form>
                 <fieldset>
-                    <h1>Order Boba</h1>
+                    <h1 class="payment" id="order-boba">Order Boba</h1>
                     <h2>Drink</h2>
-                    <label for="drink">Tea:</label><br>
-                    <input type="text" id="drink" name="drink"><br>
 
-                    <p>Milk</p>
-                    <input type="radio" id="whole" name="milk" value="Whole milk">
-                    <label for="whole">Whole milk</label><br>
-                    <input type="radio" id="oat" name="milk" value="Oat">
-                    <label for="oat">Oat</label><br>
-                    <input type="radio" id="almond" name="milk" value="Almond">
-                    <label for="almond">Almond</label><br>
-                    <input type="radio" id="none" name="milk" value="None">
-                    <label for="none">None</label><br>
+                    <div class="option">
+                        <label for="drink">Tea</label>
+                        <input type="text" id="drink" name="drink"><br>
+                    </div>
+                    
+                    <div class="option">
+                        <p>Milk</p>
+                        <input type="radio" id="whole" name="milk" value="Whole milk">
+                        <label for="whole">Whole milk</label><br>
+                        <input type="radio" id="oat" name="milk" value="Oat">
+                        <label for="oat">Oat</label><br>
+                        <input type="radio" id="almond" name="milk" value="Almond">
+                        <label for="almond">Almond</label><br>
+                        <input type="radio" id="none" name="milk" value="None">
+                        <label for="none">None</label><br>
+                    </div>
 
-                    <label for="sugar">Sugar level:</label>
-    <input list="sugar-level" id="sugar" name="sugar">
+                    <div class="option">
+                        <label for="sugar">Sugar level</label>
+                        <input list="sugar-level" id="sugar" name="sugar">
+                    </div>
 
-                    <datalist id="sugar-level">
-                        <option value="0%">
-                        <option value="25%">
-                        <option value="50%">
-                        <option value="75%">
-                        <option value="100%">
-                        <option value="200%"> 
-                    </datalist>
+                    <div class="option">
+                        <datalist id="sugar-level">
+                            <option value="0%">
+                            <option value="25%">
+                            <option value="50%">
+                            <option value="75%">
+                            <option value="100%">
+                            <option value="200%"> 
+                        </datalist>
+                    </div>
+                    
+                    <div class="option">
+                        <p>Toppings</p>
+                        <input type="checkbox" id="honey" name="topping" value="Honey boba">
+                        <label for="honey">Honey boba</label><br>
+                        <input type="checkbox" id="rainbow" name="topping" value="rainbow">
+                        <label for="rainbow">Rainbow jelly</label><br>
+                        <input type="checkbox" id="grass" name="topping" value="grass">
+                        <label for="grass">Grass jelly</label>
+                    </div>
+                    
+                    <div class="option">
+                        <p>Extra Specifications</p>
+                        <textarea></textarea>
+                        
+                    </div>
 
-                    <p>Toppings</p>
-                    <input type="checkbox" id="honey" name="topping" value="Honey boba">
-                    <label for="honey">Honey boba</label><br>
-                    <input type="checkbox" id="rainbow" name="topping" value="rainbow">
-                    <label for="rainbow">Rainbow jelly</label><br>
-                    <input type="checkbox" id="grass" name="topping" value="grass">
-                    <label for="grass">Grass jelly</label>
+                    <div class="option">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
 
-                    <p>Extra Specifications</p>
-                    <textarea></textarea><br>
-                    <label for="fname">Name</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <p>Delivery date</p>
-                    <input type="date" id="date" name="date">
-                    <p>Address</p>
-                    <textarea></textarea><br>
+                    <div class="option">
+                        <p>Delivery date</p>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    
+                    <div class="option">
+                        <p>Address</p>
+                        <textarea></textarea>
+                    </div>
+
                     <h2>Payment</h2>
-                    <label for="provider">Credit card provider:</label>
-                    <select name="provider" id="provider">
-                        <option value="visa">Visa</option>
-                        <option value="mastercard">Mastercard</option>
-                        <option value="amex">American Express</option>
-                        <option value="Discover">Discover</option>
-                    </select><br>
-                    <label for="card1">Credit card number:</label>
-                    <input type="text" id="card1" name="card"><br>
-                    <label for="card2">Expiration date:</label>
-                    <input type="text" id="card2" name="card"><br>
-                    <label for="card3">CVV:</label>
-                    <input type="text" id="card3" name="card"><br>
-                    <button>Submit</button>
+
+                    <div class="option">
+                        <label for="provider">Credit card provider:</label>
+                        <select name="provider" id="provider">
+                            <option value="visa">Visa</option>
+                            <option value="mastercard">Mastercard</option>
+                            <option value="amex">American Express</option>
+                            <option value="Discover">Discover</option>
+                        </select>
+                    </div>
+
+                    <div class="option">
+                        <label for="card1">Credit card number:</label>
+                        <input type="text" id="card1" name="card">
+                    </div>
+                    
+                    <div class="option">
+                        <label for="card2">Expiration date:</label>
+                        <input type="text" id="card2" name="card"><br>
+                    </div>
+
+                    <div class="option">
+                        <label for="card3">CVV:</label>
+                        <input type="text" id="card3" name="card">
+                    </div>                 
+                    <button class="submit">Submit</button>
                 </fieldset>
             </form>
         </div>

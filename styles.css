@@ -11,8 +11,11 @@
     --white-1: rgb(207, 214, 241);
 }
 
-body {
+* {
     font-family: 'Inter', sans-serif;
+}
+
+body {
     background-color: var(--gray-1);
     color: var(--white-1);
 }
@@ -51,7 +54,7 @@ p {
     font-size: 1em;
 }
 
-fieldset {
+form > fieldset {
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 3rem;
@@ -61,7 +64,7 @@ fieldset {
     border-radius: 15px;
 }
 
-textarea, input {
+textarea, input, [name="provider"], [class="submit"] {
     background-color: var(--gray-3);
     border-radius: 5px;
     border-color: var(--gray-3);
@@ -72,6 +75,10 @@ textarea, input {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     color: var(--white-1);
+}
+
+label + input {
+    margin-left: 0.5rem;
 }
 
 img {
@@ -92,9 +99,24 @@ footer {
     position: absolute;
 }
 
+[class="submit"] {
+    background-color: var(--blue);
+    color: var(--gray-1);
+}
+
+h1.payment {
+    color: var(--blue);
+}
+
 .hidden {
     display: none;
 }
+
+.option {
+    margin: 1rem auto;
+}
+
+
 
 #features {
     display: grid;
@@ -112,6 +134,10 @@ footer {
 
 #features p {
     margin: 0;
+}
+
+#order-boba ~ h2 {
+    color: var(--blue);
 }
 
 #name {
