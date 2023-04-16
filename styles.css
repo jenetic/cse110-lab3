@@ -2,4 +2,15 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: rgb(30, 30, 45);
+    color: rgb(207, 214, 241)
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    color: rgb(185, 222, 165);
+    text-decoration: none;
 }
