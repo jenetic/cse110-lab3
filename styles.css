@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter&display=swap');
 
 /* Catppuccin color scheme */
 
 :root {
     --gray-1: #1e1e2d;
     --gray-3: hsl(231, 17%, 23%);
+    --red: rgb(214, 142,153);
     --green: rgb(185, 222, 165);
     --blue: rgb(148, 172, 229);
     --purple: rgb(196, 166, 241);
@@ -23,6 +24,11 @@ body {
 h1, h2 {
     text-align: center;
     display: block;
+}
+
+h3 {
+    color: var(--red);
+    font-weight: bold;
 }
 
 a {
@@ -52,6 +58,10 @@ nav a {
 
 p {
     font-size: 1em;
+}
+
+form * {
+    font-family: 'Inconsolata', monospace;
 }
 
 form > fieldset {
