@@ -3,8 +3,8 @@
 /* Catppuccin color scheme */
 
 :root {
-    --gray-1: rgb(30, 30, 45);
-    --gray-3: rgb(49, 52, 69);
+    --gray-1: #1e1e2d;
+    --gray-3: hsl(231, 17%, 23%);
     --green: rgb(185, 222, 165);
     --blue: rgb(148, 172, 229);
     --purple: rgb(196, 166, 241);
@@ -102,6 +102,10 @@ video {
 
 #features p {
     margin: 0;
+}
+
+#name {
+    columns: white;
 }
 
 @media (max-width: 600px) {
