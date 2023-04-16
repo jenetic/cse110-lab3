@@ -85,6 +85,14 @@ video {
     max-width: 70vw;
 }
 
+audio {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+}
+
 .hidden {
     display: none;
 }
