@@ -7,6 +7,7 @@
     --gray-3: rgb(49, 52, 69);
     --green: rgb(185, 222, 165);
     --blue: rgb(148, 172, 229);
+    --purple: rgb(196, 166, 241);
     --white-1: rgb(207, 214, 241);
 }
 
@@ -24,6 +25,15 @@ h1, h2 {
 a {
     color: var(--green);
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--purple);
+    text-decoration: underline;
 }
 
 nav {
